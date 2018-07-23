@@ -5,5 +5,7 @@ def fizzbuzz(input)
     return "Fizz"
  elsif input%5==0 && input%3!=0
     return "Buzz"
- else if 
+    
+ else if input%5==0 && input%3==0
+   return "FizzBuzz"
  end
