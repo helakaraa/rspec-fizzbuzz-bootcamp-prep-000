@@ -2,5 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(input)
  if input%3==0
-    
-end
+    return "Fizz"
+ elsif input%5==0
+    return "Buzz"
+ end
